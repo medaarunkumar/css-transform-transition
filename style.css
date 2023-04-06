@@ -1,0 +1,26 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 30px;
+    /* transform: translate(-200px, -300px); */
+    /* transform: rotate(-75deg); */
+    /* transform: scale(1.5); */
+    transition: transform 1s linear;
+    transform: skew(20deg);
+    /* transition: <css property> <timer> <type> <delay> */
+}
+
+div:hover {
+    transform: scale(1.2);
+}
+
+img {
+    cursor: pointer;
+    transition: all 0.5s ease-in 1s;
+}
+
+img:hover {
+    transform: scale(1.1);
+    border: 1px solid red;
+}
